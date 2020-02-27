@@ -1,0 +1,13 @@
+# https://www.nexusmods.com/monsterhunterworld/mods/142
+# http://www.alphaconsole.net/ - https://github.com/AlphaConsole/AlphaConsoleElectron
+
+man hexdump
+
+apropos memory
+pgrep RocketLeague | xargs pmap --extended
+ls -l /dev/mem
+
+apropos process
+man credentials
+man setpgid
+
