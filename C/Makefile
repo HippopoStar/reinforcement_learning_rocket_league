@@ -17,6 +17,8 @@ HEAD = ./includes/print_memory.h
 
 NAME = memory_reader.out
 
+#==========
+
 SRC_PATH = ./srcs
 
 SRC_NAME = main_mem_read.c\
@@ -30,6 +32,18 @@ OBJ_NAME = $(SRC_NAME:.c=.o)
 
 OBJ = $(addprefix $(OBJ_PATH)/,$(OBJ_NAME))
 
+#==========
+
+BENCH_NAME = running_program.out
+
+SRC_BENCH_PATH = ./bench_test
+
+SRC_BENCH_NAME = main_running_program.c
+
+SRC_BENCH = $(addprefix $(SRC_BENCH_PATH)/,$(SRC_BENCH_NAME))
+
+#==========
+
 all: $(NAME)
 
 $(NAME): $(OBJ)
@@ -41,13 +55,17 @@ $(OBJ_PATH)/%.o: $(SRC_PATH)/%.c $(HEAD) | $(OBJ_PATH)
 $(OBJ_PATH):
 	mkdir $(OBJ_PATH)
 
+bench: $(SRC_BENCH)
+	gcc -o $(BENCH_NAME) $(CFLAGS) $(SRC_BENCH)
+
 clean:
 	rm -f $(OBJ)
 	rm -df $(OBJ_PATH)
+	rm -f $(BENCH_NAME)
 
 fclean: clean
 	rm -f $(NAME)
 
 re: fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all clean fclean re bench

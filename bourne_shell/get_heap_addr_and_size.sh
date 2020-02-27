@@ -25,18 +25,18 @@ main() {
 		exit 0
 	fi
 
-	local ADRESS="$(${_ECHO} "${PMAP_HEAP_LINE}" | ${_AWK} '/\[heap\]$/ { print $1 }')"
+	local ADDRESS="$(${_ECHO} "${PMAP_HEAP_LINE}" | ${_AWK} '/\[heap\]$/ { print $1 }')"
 	local SIZE="$(${_ECHO} "${PMAP_HEAP_LINE}" | ${_AWK} '/\[heap\]$/ { print $6 }')"
 
-	if [ -z "${ADRESS}" ] || [ -z "${SIZE}" ]
+	if [ -z "${ADDRESS}" ] || [ -z "${SIZE}" ]
 	then
-		${_ECHO} 'Unable to get memory adress and size'
+		${_ECHO} 'Unable to get memory address and size'
 		exit 0
 	fi
 
 	${_ECHO} "${PMAP_HEAP_LINE}"
 	${_ECHO} "PID: ${GAME_PID}"
-	${_ECHO} "Adress: ${ADRESS}"
+	${_ECHO} "Address: ${ADDRESS}"
 	${_ECHO} "Size: ${SIZE}"
 }
 

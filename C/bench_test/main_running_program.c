@@ -69,6 +69,7 @@ int				main(void)
 	char	str_buf[9] = { 'P', 'a', 't', 'a', 't', 'r', 'a', '\n', '\0' };
 	char	*str_ptr;
 
+	(void)str_buf;
 	display_ids();
 	if (!(str_ptr = ft_strdup("Totoro\n")))
 	{
