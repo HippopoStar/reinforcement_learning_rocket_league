@@ -7,12 +7,12 @@ Realisation d'un overlay affichant une mini-map pendant la partie
 _Objectif_ : etre capable de lire et identifier les donnees de jeu dans la memoire RAM  
 
 ## Etape 2
-Realisation d'un programme permattant de mapper les controles d'une manette de jeu  
+Realisation d'un programme permettant de mapper les controles d'une manette de jeu  
 _Objectif_ : etre capable d'emuler une manette detectable par les autres programmes  
 
 ## Etape 3
 Realisation d'agents s'entrainant dans le cadre de parties en ecran partage  
-_Onjectif_ : boire un cafe devant l'ordinateur les jambes croisees sur la table en s'amusant du niveau pitoyable des agents s'affrontant  
+_Objectif_ : boire un cafe devant l'ordinateur les jambes croisees sur la table en s'amusant du niveau pitoyable des agents s'affrontant  
 
 ## Sources d'inspiration :
 
@@ -30,6 +30,7 @@ _Onjectif_ : boire un cafe devant l'ordinateur les jambes croisees sur la table 
 [Sourceware - libc - struct\_iovec.h](https://sourceware.org/git/?p=glibc.git;a=blob;f=misc/bits/types/struct_iovec.h;hb=HEAD)  
 [Sourceware - libc - process\_vm\_readv.c](https://sourceware.org/git/?p=glibc.git;a=blob;f=sysdeps/unix/sysv/linux/process_vm_readv.c;hb=HEAD)  
 
-[X.Org](https://www.x.org/wiki/)  
+[X.Org](https://www.x.org/)  
 [GTK](https://gtk.org/)  
+[OpenGL](https://www.opengl.org/)  
 
