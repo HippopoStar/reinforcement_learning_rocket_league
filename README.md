@@ -35,8 +35,8 @@ _Objectif_ : boire un cafe devant l'ordinateur les jambes croisees sur la table 
 
 ### Concernant l'affichage d'un overlay devant un jeu en ecran fenetre
 
-[GitHub 42Paris - minilibx-linux - mlx\_int.h](https://github.com/42Paris/minilibx-linux/blob/master/mlx_int.h)  
-[GitHub HippopoStar - branche\_graphique - notes\_perso.txt](https://github.com/HippopoStar/branche_graphique/blob/master/notes_perso.txt)  
+[GitHub 42Paris - minilibx-linux/mlx\_int.h](https://github.com/42Paris/minilibx-linux/blob/master/mlx_int.h)  
+[GitHub HippopoStar - branche\_graphique/notes\_perso.txt](https://github.com/HippopoStar/branche_graphique/blob/master/notes_perso.txt)  
 [Wikipedia - X Window System](https://fr.wikipedia.org/wiki/X_Window_System)  
 
 [X.Org](https://www.x.org/)  
@@ -48,5 +48,7 @@ _Objectif_ : boire un cafe devant l'ordinateur les jambes croisees sur la table 
 [Wikipedia - Pile graphique Linux](https://fr.wikipedia.org/wiki/Pile_graphique_Linux)  
 [Wikipedia - Fichier : Wayland\_display\_server\_protocol.svg](https://fr.wikipedia.org/w/index.php?title=Fichier:Wayland_display_server_protocol.svg&lang=fr)  
 `/usr/bin/man 4 libinput`  
-[libinput API Documentation](https://wayland.freedesktop.org/libinput/doc/latest/api/)  
+[Wayland - libinput API Documentation](https://wayland.freedesktop.org/libinput/doc/latest/api/)  
+[Wikipedia - Noyau Linux](https://fr.wikipedia.org/wiki/Noyau_Linux)  
+[GitHub Torvalds - linux/Documentation/input/gamepad.rst](https://github.com/torvalds/linux/blob/master/Documentation/input/gamepad.rst)  
 
