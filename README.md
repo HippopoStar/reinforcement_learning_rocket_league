@@ -21,6 +21,11 @@ _Objectif_ : boire un cafe devant l'ordinateur les jambes croisees sur la table 
 [GitHub - AlphaConsole (Rocket League)](https://github.com/AlphaConsole/AlphaConsoleElectron)  
 [AlternativeTo - ControlMK](https://alternativeto.net/software/controlmk/)  
 
+[OpenAI blog - Dota 2](https://openai.com/blog/dota-2/)  
+[OpenAI blog - OpenAI Five](https://openai.com/blog/openai-five/)  
+[OpenAI blog - Reinforcement Learning with Prediction-Based Rewards](https://openai.com/blog/reinforcement-learning-with-prediction-based-rewards/)  
+[OpenAI blog - OpenAI Five Defeats Dota 2 World Champions](https://openai.com/blog/openai-five-defeats-dota-2-world-champions/)  
+
 ### Concernant la lecture dans la memoire RAM
 
 [GNU](https://www.gnu.org/)  
